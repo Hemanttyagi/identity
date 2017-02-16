@@ -1,4 +1,4 @@
-OPTIONS="Ga9 Yaz Ak"
+OPTIONS="Ga9 Yaz Ak Kish"
     select opt in $OPTIONS; do
            if [ "$opt" = "Ga9" ]; then
            source identity/GreenArrow9.sh
@@ -8,6 +8,9 @@ OPTIONS="Ga9 Yaz Ak"
            break;
            elif [ "$opt" = "Ak" ]; then
            source identity/AkAbhishek.sh
+           break;
+           elif [ "$opt" = "Kish" ]; then
+           source identity/kishanpatel1998.sh
            break;
            else
            clear

@@ -1,0 +1,3 @@
+Identity
+
+Lazy Script to setup git config file.

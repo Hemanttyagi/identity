@@ -1,4 +1,4 @@
-OPTIONS="Ga9 Yaz AK Kish Dark"
+OPTIONS="Ga9 Yaz AK Kish Dark Hemant"
     select opt in $OPTIONS; do
            if [ "$opt" = "Ga9" ]; then
            source identity/GreenArrow9.sh
@@ -14,6 +14,9 @@ OPTIONS="Ga9 Yaz AK Kish Dark"
            break;
            elif [ "$opt" = "Dark" ]; then
            source identity/TheDarkStrix.sh
+           break;
+           elif [ "$opt" = "Hemant" ]; then
+           source identity/hemant.sh
            break;
            else
            clear
